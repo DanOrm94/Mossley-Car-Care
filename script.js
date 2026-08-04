@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function(){
     });
   }
 
-  // Mobile dropdown toggle (tap to expand on small screens)
   var dropdownToggles = document.querySelectorAll('.dropdown-toggle');
   dropdownToggles.forEach(function(toggle){
     toggle.addEventListener('click', function(e){
